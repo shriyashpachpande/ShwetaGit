@@ -4,7 +4,7 @@ import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import { useNavigate } from "react-router-dom"; 
 import { useTranslation } from "react-i18next";
-import doctorVideo from "../../assets/card1.mp4"; // ✅ Add a video or image
+import doctorVideo from "../../assets/card5.mp4"; // ✅ Add a video or image
 
 gsap.registerPlugin(ScrollTrigger);
 
