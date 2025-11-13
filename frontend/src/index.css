@@ -1,0 +1,48 @@
+/* font import */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* custom scrollbar */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #f5f5f5;
+  border-radius: 10px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* tailwind apply */
+.btn {
+  @apply border rounded-lg shadow-md px-4 py-2 bg-white hover:bg-gray-50;
+}
+.input {
+  @apply border rounded-lg shadow-md px-3 py-2 bg-white w-full;
+}
+.card {
+  @apply border rounded-lg shadow-md bg-white p-4;
+}
+@layer components {
+  .btn-nav {
+    @apply text-gray-700 hover:text-black transition-colors duration-200 font-medium;
+  }
+
+  .btn-mobile {
+    @apply text-gray-700 hover:bg-gray-100 py-2 px-3 rounded-md transition-all duration-200;
+  }
+}

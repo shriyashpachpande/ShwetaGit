@@ -1,0 +1,12 @@
+Patient Name: Mr. Suresh Nair
+Age: 50
+Date: 21 July 2025
+
+Report: Blood Sugar Test
+Fasting Blood Sugar: 210 mg/dL
+Postprandial Blood Sugar: 295 mg/dL
+HbA1c: 8.5%
+
+Diagnosis Notes:
+The patient is showing signs of Type 2 Diabetes Mellitus.
+Advised to start oral hypoglycemic medication and follow strict diet control.

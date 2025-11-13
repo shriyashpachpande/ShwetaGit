@@ -1,0 +1,121 @@
+
+{
+
+"home": {
+  "welcome": "আমাদের প্ল্যাটফর্মে স্বাগতম",
+  "Get Started": "শুরু করুন",
+  "Pricing": "মূল্য",
+  "services": "সেবা",
+  "SERVICES": "সেবা",
+  "Contact": "যোগাযোগ করুন",
+  "Login": "লগইন",
+  "AI AUTOMATION FOR BUSINESSES": "ব্যবসার জন্য এআই অটোমেশন",
+  "AI-powered medical insights and insurance clarity—empowering every patient with instant, trusted answers": "এআই-চালিত চিকিৎসা অন্তর্দৃষ্টি এবং বীমা স্পষ্টতা — প্রতিটি রোগীকে তাৎক্ষণিক, নির্ভরযোগ্য উত্তর দিয়ে ক্ষমতায়িত করা",
+  "Get Instant Answers": "তাৎক্ষণিক উত্তর পান",
+  "See Our Services": "আমাদের সেবাগুলি দেখুন",
+  "ClauseSense is an AI-powered platform designed to simplify and clarify complex medical documents and insurance policies. Our mission is to empower patients with instant, trusted answers, ensuring they understand their healthcare rights and options.": "ক্লজসেন্স একটি এআই-চালিত প্ল্যাটফর্ম যা জটিল চিকিৎসা দলিল এবং বীমা নীতিগুলি সহজ ও স্পষ্ট করতে ডিজাইন করা হয়েছে। আমাদের লক্ষ্য রোগীদের তাৎক্ষণিক এবং নির্ভরযোগ্য উত্তর প্রদান করা, যাতে তারা তাদের স্বাস্থ্য অধিকার ও বিকল্পগুলি ভালভাবে বুঝতে পারে।",
+  "Confused by insurance policies?": "বীমা নীতিতে বিভ্রান্ত?",
+  "DocBot simplifies them instantly.": "ডকবট তাৎক্ষণিকভাবে সহজ করে দেয়।",
+  "Explore powerful AI solutions for document analysis, insurance clarity, and healthcare insights—built to deliver value.": "দলিল বিশ্লেষণ, বীমা স্পষ্টতা এবং স্বাস্থ্য অন্তর্দৃষ্টির জন্য শক্তিশালী এআই সমাধানগুলি এক্সপ্লোর করুন — মূল্য প্রদান করার জন্য তৈরি।",
+  "Smart Analyzer": "স্মার্ট বিশ্লেষক",
+  "Single doc upload → Coverage summary.": "একটি দলিল আপলোড → কভারেজ সারসংক্ষেপ।",
+  "Multiple Document Analyzer": "বহু দলিল বিশ্লেষক",
+  "Multiple reports → Unified coverage answer.": "একাধিক রিপোর্ট → একীকৃত কভারেজ উত্তর।",
+  "AI ChatBot": "এআই চ্যাটবট",
+  "Interactive Q&A on policies.": "নীতিগুলিতে ইন্টারেক্টিভ প্রশ্নোত্তর।",
+  "InsureIQ": "ইনশিওরআইকিউ",
+  "Instantly decode policies and simplify complex insurance coverage.": "নীতিগুলি তাৎক্ষণিকভাবে ডিকোড করুন এবং জটিল বীমা কভারেজ সহজ করুন।",
+  "MediGuide": "মেডিগাইড",
+  "Your trusted health assistant for accurate medical advice anytime.": "সঠিক চিকিৎসা পরামর্শের জন্য আপনার বিশ্বাসযোগ্য স্বাস্থ্য সহকারী, যে কোনও সময়।",
+  "DiagnoScan": "ডায়াগনোস্ক্যান",
+  "AI-powered scans to detect and explain health conditions quickly.": "এআই-চালিত স্ক্যান যা স্বাস্থ্য পরিস্থিতি দ্রুত সনাক্ত ও ব্যাখ্যা করে।",
+  "Simple Price For All.": "সবাই জন্য সহজ মূল্য।",
+"Report": "রিপোর্ট",
+    "Choose File": "ফাইল বাছাই করুন",
+    "No file chosen": "কোনো ফাইল বাছাই করা হয়নি",
+    "or": "অথবা",
+    "Paste report text...": "রিপোর্ট টেক্সট পেস্ট করুন...",
+    "Upload Report": "রিপোর্ট আপলোড করুন",
+    "Diagnosis": "নির্ণয়",
+    "Severity": "তীব্রতা",
+    "Treatment": "চিকিৎসা",
+    "Description": "বর্ণনা",
+    "Summary": "সারাংশ",
+    "Listen / Stop": "শুনুন / বন্ধ করুন",
+    "Policy": "নীতিমালা",
+    "Paste policy text...": "নীতিমালা টেক্সট পেস্ট করুন...",
+    "Upload Policy": "নীতিমালা আপলোড করুন",
+    "Policy Name": "নীতিমালা নাম",
+    "File": "ফাইল",
+    "Clauses": "ধারা",
+    "Analyze": "বিশ্লেষণ করুন",
+    "Compare Latest": "সর্বশেষ তুলনা করুন",
+    "Decision": "ফলাফল",
+    "Clause": "ধারা",
+    "Limit": "সীমা",
+    "Justification": "তর্ক",
+    "Confidence": "আত্মবিশ্বাস",
+    "Automated Workflows": "স্বয়ংক্রিয় কর্মপ্রবাহ",
+    "Automate workflows to streamline tasks, boost efficiency, and save time": "কাজ সহজতর করার জন্য, দক্ষতা বাড়ানোর জন্য এবং সময় বাঁচানোর জন্য স্বয়ংক্রিয় কর্মপ্রবাহ",
+    "Your browser does not support the video tag.": "আপনার ব্রাউজার ভিডিও ট্যাগ সমর্থন করে না।",
+    "Paste report text or choose a file": "রিপোর্ট টেক্সট পেস্ট করুন অথবা ফাইল বাছাই করুন",
+    "Report uploaded": "রিপোর্ট আপলোড হয়েছে",
+    "Report upload failed": "রিপোর্ট আপলোড ব্যর্থ হয়েছে",
+    "Paste policy text or choose a file": "নীতিমালা টেক্সট পেস্ট করুন অথবা ফাইল বাছাই করুন",
+    "Policy uploaded": "নীতিমালা আপলোড হয়েছে",
+    "Policy upload failed": "নীতিমালা আপলোড ব্যর্থ হয়েছে",
+    "Upload report and policy first": "প্রথমে রিপোর্ট এবং নীতিমালা আপলোড করুন",
+    "Analysis ready": "বিশ্লেষণ প্রস্তুত",
+    "Analyze failed": "বিশ্লেষণ ব্যর্থ"
+},
+
+
+"Pricing" :  {
+  
+  "Flexible pricing plans that fit your budget & scale with needs.": "লচিলাভাবে মূল্য পরিকল্পনা যা আপনার বাজেটের সাথে মানায় এবং প্রয়োজন অনুযায়ী বৃদ্ধি পায়।",
+  "Monthly": "মাসিক",
+  "Yearly": "বার্ষিক",
+  "30% off": "30% ছাড়",
+  "Starter": "স্টার্টার",
+  "Pro": "প্রো",
+  "Enterprise": "এন্টারপ্রাইজ",
+  "Starter Desc": "এআই এবং বুদ্ধিমান অটোমেশন এক্সপ্লোর করার জন্য প্রস্তুত ব্যবসার জন্য আদর্শ",
+  "Pro Desc": "এআই-সক্ষম অটোমেশনের মাধ্যমে এগিয়ে যেতে চাওয়া কোম্পানির জন্য তৈরি",
+  "Enterprise Desc": "তাদের শিল্পে নেতৃত্ব নিতে এআই এবং অটোমেশন ব্যবহার করতে ইচ্ছুক ব্যবসার জন্য",
+  "Check My Subscription": "আমার সাবস্ক্রিপশন পরীক্ষা করুন",
+  "Basic AI Tools": "মৌলিক এআই সরঞ্জাম",
+  "Limited Automation Features": "সীমিত অটোমেশন বৈশিষ্ট্য",
+  "Real-Time Reporting": "রিয়েল-টাইম রিপোর্টিং",
+  "Basic Chatbot Integration": "মৌলিক চ্যাটবট ইন্টিগ্রেশন",
+  "Advanced AI Tools": "উন্নত এআই সরঞ্জাম",
+  "Customizable Workflows": "কাস্টমাইজেবল ওয়ার্কফ্লো",
+  "AI-Powered Analytics": "এআই-সক্ষম বিশ্লেষণ",
+  "Premium Chatbot Features": "প্রিমিয়াম চ্যাটবট বৈশিষ্ট্য",
+  "Cross-Platform Integrations": "ক্রস-প্ল্যাটফর্ম ইন্টিগ্রেশন",
+  "Fully Customized AI Solutions": "সম্পূর্ণ কাস্টমাইজড এআই সমাধান",
+  "Unlimited Integrations": "অসীম ইন্টিগ্রেশন",
+  "Advanced Reporting & Insights": "উন্নত রিপোর্টিং এবং অন্তর্দৃষ্টি",
+  "Scalable AI Solutions": "স্কেলেবল এআই সমাধান",
+  "Team Collaboration Features": "টিম সহযোগিতা বৈশিষ্ট্য",
+  "Priority Feature Access": "অগ্রাধিকার বৈশিষ্ট্য অ্যাক্সেস",
+  "Starter Price Monthly": "₹800 /মাস",
+  "Pro Price Monthly": "₹1700 /মাস",
+  "Enterprise Price Monthly": "₹4700 /মাস",
+  "Starter Price Yearly": "₹4200 /বছর",
+  "Pro Price Yearly": "₹7500 /বছর",
+  "Enterprise Price Yearly": "₹11000 /বছর"
+},
+
+
+ "services" : {
+
+
+
+ },
+
+ "contact" : {
+
+
+  
+ }
+}

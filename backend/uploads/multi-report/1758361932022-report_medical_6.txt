@@ -1,0 +1,14 @@
+Patient Name: Mr. Deepak Malhotra
+Age: 60
+Date: 21 July 2025
+gender: Male
+
+Report: Lipid Profile Test
+Total Cholesterol: 280 mg/dL
+LDL Cholesterol: 190 mg/dL
+HDL Cholesterol: 32 mg/dL
+Triglycerides: 220 mg/dL
+
+Diagnosis Notes:
+The patient is showing signs of Hyperlipidemia.
+Advised statin therapy and lifestyle modification.

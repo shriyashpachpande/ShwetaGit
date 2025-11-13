@@ -1,0 +1,92 @@
+Patient Name
+Reffered by
+Age / Sex
+ Mr. SHOURYA WAGHMARE 
+DR.RUPESH BHOSLE SIR
+:
+:
+:
+Accession No:
+2025072902
+Reporting On
+Registered On
+Printed On
+:
+:
+:
+29/07/2025
+29/07/2025
+7 Year/Male
+2025.00LAB2025072902
+29/07/2025
+HEMATOLOGY
+Reference RangePatient valueTest NameUnit
+COMPLETE BLOOD COUNTS
+HAEMOGLOBIN (Hb)12.3g/dL13.0 - 18.0
+WBC COUNT570010^3/uL4000 - 11000
+DLC (DIFFERENTIAL LEUKOCYTE COUNT)
+NEUTROPHILS81%40.0 - 70.0
+LYMPHOCYTES10%20.0 - 45.0
+EOSINOPHILS04%2.0 - 6.0
+MONOCYTES05%1.0 - 8.0
+BASOPHILS00%< 1.0
+RED CELL ABSOLUTE VALUES
+RBC COUNT4.7310^6/uL4.5 - 5.5
+HCT35.7%41.5 - 50.5
+MCV75.48f L80.0 - 96.0
+MCH26pg27.0 - 32.0
+MCHC34.45g/dL31.5 - 34.5
+RDW-CV14.1%11.0 - 16.0
+Platelet Indices
+PLATELET COUNT45500010^3/ul150000 - 450000
+MPV8.4fl6.5 - 12.0
+PCT0.383%0.108 - 0.282
+PDW-CV15.4%15.0 - 17.0
+Dr Sharda Mundada
+(MD Pathologist)
+Kindly correlate clinically !
+Thanks for referral !
+
+Patient Name
+Reffered by
+Age / Sex
+ Mr. SHOURYA WAGHMARE 
+DR.RUPESH BHOSLE SIR
+:
+:
+:
+Accession No:
+2025072902
+Reporting On
+Registered On
+Printed On
+:
+:
+:
+29/07/2025
+29/07/2025
+7 Year/Male
+2025.00LAB2025072902
+29/07/2025
+SEROLOGY
+Reference RangePatient valueTest NameUnit
+C REACTIVE PROTEIN
+C REACTIVE PROTEIN15.9mg/L0 - 6
+INTERPRETATION:
+C-reactive protein (CRP) is an important and evolutionarily ancient component of the innate immune response. CRP has been 
+described as “the prototypical acute-phase reactant to infections and inflammation in human beings.” In the clinical setting, 
+CRP is used “as a clinical indicator of acute infections and response to treatment, and to assess inflammatory status in 
+chronic diseases. Initially it was thought that CRP might be a pathogenic secretion as it was elevated in people with a variety 
+of illnesses including cancer. However, discovery of synthesis in the liver demonstrated that it is manufactured by the human 
+body.
+The fact that CRP is an independent predictor of stroke and coronary artery disease but also a key contributor to effective 
+bacterial clearance, underscores the importance of microbes in the pathogenesis of these diseases. Some patients on the 
+Marshall Protocol (MP) have reported temporary increases in CRP, an observation which is consistent with a heightened 
+immune response.
+CRP s name comes from its capacity to bind the C-polysaccharide of Streptococcus pneumoniae, which provides innate 
+defense against pneumococcal infection.
+----------- End of Report----------
+Dr Sharda Mundada
+(MD Pathologist)
+Kindly correlate clinically !
+Thanks for referral !

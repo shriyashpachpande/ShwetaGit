@@ -1,0 +1,31 @@
+Policy Name: MediCare Shield Policy
+Issued By: XYZ Life & Health Insurance Pvt. Ltd.
+Policy Number: MCSP-4587329
+Effective Date: 10 March 2025
+Expiry Date: 09 March 2026
+
+Coverage Details:
+
+Section 1: Outpatient Consultations (Annual Limit ₹15,000)
+
+Section 2: Hospitalization (Room Rent up to ₹5,000 per day, Overall Limit ₹3,00,000 per year)
+
+Section 3: Diabetes Treatment (Annual Limit ₹80,000, Lifetime Maximum ₹4,00,000)
+
+Section 4: Hypertension & Cardiac Treatment (Annual Limit ₹1,20,000)
+
+Section 5: Kidney Dialysis (10 sessions covered per year)
+
+Section 6: Critical Illness Coverage (Cancer, Stroke, Heart Attack – Limit ₹10,00,000)
+
+Section 7: Emergency Ambulance Services (Limit ₹15,000 per year)
+
+Exclusions:
+
+Dental and Cosmetic Procedures
+
+Infertility & Maternity beyond 2 children
+
+Experimental/Unapproved Medical Treatments
+
+Non-prescription health supplements

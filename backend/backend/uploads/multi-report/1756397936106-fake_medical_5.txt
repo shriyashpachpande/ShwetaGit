@@ -1,0 +1,12 @@
+Patient Name: Mrs. Kavita Joshi
+Age: 39
+Date: 21 July 2025
+
+Report: Kidney Function Test
+Serum Creatinine: 2.1 mg/dL
+Blood Urea: 68 mg/dL
+eGFR: 45 mL/min/1.73m²
+
+Diagnosis Notes:
+The patient is showing signs of Chronic Kidney Disease (Stage 3).
+Advised nephrology consultation and regular monitoring.
