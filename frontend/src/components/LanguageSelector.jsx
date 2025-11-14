@@ -8,7 +8,7 @@ export default function LanguageSelector() {
   };
 
   return (
-    <select onChange={handleChange} value={i18n.language}>
+    <select className='bg-transparent' onChange={handleChange} value={i18n.language}>
       <option value="en">English</option>
       <option value="hi">हिन्दी</option>
       <option value="mr">मराठी</option>
