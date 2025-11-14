@@ -114,7 +114,7 @@ export default function ChatBot() {
     const endpoint = type === "policy" ? "/upload-policy" : "/upload-report";
 
     const res = await axios.post(
-      `http://localhost:5000/api${endpoint}`,
+      `https://shwetagit.onrender.com/api${endpoint}`,
       formData,
       { headers: { "Content-Type": "multipart/form-data" } }
     );
