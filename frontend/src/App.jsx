@@ -42,6 +42,7 @@ import BookAppointment from "./pages/BookAppointment.jsx";
 import ChatPage from "./pages/ChatPage.jsx";
 import UploadReportPage from "./pages/UploadReportPage.jsx";
 import PatientLogin from "./pages/PatientLogin.jsx";
+import NearbyHospitalsPage from "./pages/NearbyHospitalsPage.jsx";
 
 // Clerk Key
 const clerkPubKey = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY;
@@ -198,6 +199,7 @@ function App() {
               </BotLayout>
             }
           />
+          <Route path="/nearby-hospitals" element={<NearbyHospitalsPage />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/schemagovt" element={<SchemeForm />} />
           <Route
