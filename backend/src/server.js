@@ -140,7 +140,8 @@ const app = express();
 
 const allowedOrigins = [
   "http://localhost:5173",              // Local dev
-  "https://sih-health.vercel.app"       // Deployed frontend
+  "https://sih-health.vercel.app",
+  "https://docbotlcausesense.vercel.app"       // Deployed frontend
 ];
 
 app.use(cors({
