@@ -6,6 +6,7 @@ import SecondCard from "./SecondCard";
 import ThirdCard from "./ThirdCard";
 import ExtraFeatures from "./ExtraFeatures";
 import FourthCard from "./FourthCard";
+import FifthCard from "./FifthCard";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -103,6 +104,13 @@ const Cards = () => {
           className="cursor-pointer"
         >
           <FourthCard />
+        </div>
+        <div
+          ref={(el) => (cardsRef.current[2] = el)}
+          onClick={() => handleCardClick("third")}
+          className="cursor-pointer"
+        >
+          <FifthCard />
         </div>
         
       </div>
