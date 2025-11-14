@@ -239,7 +239,8 @@ import { FaUserCircle } from "react-icons/fa";
 import { FaWandMagicSparkles } from "react-icons/fa6";
 import { FaMicrophone } from "react-icons/fa";
 import { useTranslation } from 'react-i18next';
-const API = "http://localhost:5000/api";
+// const API = "http://localhost:5000/api";
+const API = "https://shwetagit.onrender.com/api";
 
 export default function ChatBox() {
   const [chatId, setChatId] = useState(null);

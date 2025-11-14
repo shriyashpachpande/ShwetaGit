@@ -85,7 +85,7 @@ export default function ChatBot() {
     setIsTyping(true);
 
     try {
-      const res = await axios.post("http://localhost:5000/api/chatbot", {
+      const res = await axios.post("https://shwetagit.onrender.com/api/chatbot", {
         query: input,
       });
 
