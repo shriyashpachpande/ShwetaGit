@@ -37,7 +37,7 @@ const AiRoute = () => {
       <ul className="space-y-4">
         <li ref={(el) => (linksRef.current[0] = el)}>
           <NavLink
-            // to="/insureIQ"
+            to="/insureIQ"
             className="block p-3 bg-gray-100 rounded-md hover:bg-gray-200 transition"
           >
             {t('InsureIQ')}
@@ -45,7 +45,7 @@ const AiRoute = () => {
         </li>
         <li ref={(el) => (linksRef.current[1] = el)}>
           <NavLink
-            // to="/mediGuide"
+            to="/mediGuide"
             className="block p-3 bg-gray-100 rounded-md hover:bg-gray-200 transition"
           >
             {t('MediGuide')}
@@ -53,7 +53,7 @@ const AiRoute = () => {
         </li>
         <li ref={(el) => (linksRef.current[2] = el)}>
           <NavLink
-            // to="/diagnoScan"
+            to="/diagnoScan"
             className="block p-3 bg-gray-100 rounded-md hover:bg-gray-200 transition"
           >
             {t('DiagnoScan')}
