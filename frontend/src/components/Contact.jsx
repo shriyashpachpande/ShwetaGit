@@ -87,7 +87,7 @@ export default function Contact() {
           </div>
 
           {/* Phone */}
-          <div className=" items-start space-y-5 gap-4 p-6 bg-[#f5f5f5] rounded-2xl sm:ml-0 md:ml-20"
+          <div className=" items-start space-y-5 gap-4 p-6 bg-[#f5f5f5] rounded-2xl sm:ml-0 md:ml-20 mt-20"
           style={{boxShadow: "rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px"}}
           >
             <Phone className="w-10 space-y-5 h-10 text-black" />
