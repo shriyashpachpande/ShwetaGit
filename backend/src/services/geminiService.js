@@ -45,7 +45,7 @@ export async function askGemini(prompt) {
   console.log("🔹 Gemini Prompt:", prompt.slice(0, 100) + "..."); // First 100 chars
   try {
     // ✅ Corrected API endpoint (v1 → v1beta)
-    const url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent";
+    const url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent";
     console.log("🌍 Calling Gemini API:", url);
 
     const response = await axios.post(
