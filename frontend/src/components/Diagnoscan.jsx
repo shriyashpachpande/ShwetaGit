@@ -7,7 +7,8 @@ export default function Diagnoscan() {
 
       <div className="w-full flex-1">
         <iframe
-          src="https://dscan.onrender.com/"
+          src="https://diagnoscan.onrender.com/"
+          // src="https://dscan.onrender.com/"
           title="Medical Imaging Agent"
           className="w-full h-full"
           style={{ border: 'none' }}
