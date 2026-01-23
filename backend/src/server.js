@@ -1,104 +1,4 @@
-// //---------------------------main file-----------------------------
-
-
-
-// import express from 'express';
-// import cors from 'cors';
-// import dotenv from 'dotenv';
-// import mongoose from 'mongoose';
-// import path from 'path';
-// import { fileURLToPath } from 'url';
-// import { requireAuth } from '@clerk/express';
-
-// // Existing routers
-// import reportRoutes from './routes/report.js';
-// import policyRoutes from './routes/policy.js';
-// import analyzeRoutes from './routes/analyze.js';
-// import chatRouter from './routes/chat.js';
-// import uploadRoutes from './routes/uploadRoutes.js';
-// import chatRoutes from './routes/chatRoutes.js';
-// import multiReportRoutes from './routes/multi-report-route.js';
-// import multiPolicyRoutes from './routes/multi-policy-route.js';
-// import multiAnalyzeRoutes from './routes/multi-analyze-route.js';
-// import medicalAnalysisRoutes from './routes/medicalAnalysisRoutes.js';
-// import subscriptionRoutes from './routes/subscription.js';
-// import { connectDB } from './utils/db.js';
-
-// // NEW: Admin analytics
-// import adminAuth from './middleware/adminAuth.js';
-// import analyticsRoutes from './routes/analytics.routes.js';
-// import ensureIndexes from './indexes.js';
-
-// dotenv.config();
-
-// const __filename = fileURLToPath(import.meta.url);
-// const __dirname = path.dirname(__filename);
-
-// const app = express();
-
-// // Core middleware
-// app.use(cors({ origin: 'http://localhost:5173', allowedHeaders: ['Content-Type','Authorization'] }));
-// app.use(express.json({ limit: '10mb' }));
-
-// // Static uploads
-// const uploadsPath = path.join(__dirname, '..', process.env.UPLOAD_DIR || 'uploads');
-// app.use('/uploads', express.static(uploadsPath));
-
-// // Connect MongoDB and ensure indexes
-// connectDB()
-//     .then(async () => {
-//         console.log('MongoDB connected');
-//         if (ensureIndexes) {
-//             await ensureIndexes();
-//             console.log('Indexes ensured');
-//         }
-//     })
-//     .catch(err => console.error('MongoDB connection error', err));
-
-// // Public/regular API routes (unchanged)
-// app.use('/api/report', reportRoutes);
-// app.use('/api/policy', policyRoutes);
-// app.use('/api/analyze', analyzeRoutes);
-// app.use('/api/chat', chatRouter);
-// app.use('/api/multi-report', multiReportRoutes);
-// app.use('/api/multi-policy', multiPolicyRoutes);
-// app.use('/api/multi-analyze', multiAnalyzeRoutes);
-// app.use('/api/medical-ana', medicalAnalysisRoutes);
-// app.use('/api', uploadRoutes);
-// app.use('/api', chatRoutes);
-
-// // Clerk-protected
-// app.use('/api/subscription', requireAuth(), subscriptionRoutes);
-
-// // NEW: Admin-only analytics namespace (Basic Auth)
-// app.use('/admin', adminAuth);
-// app.use('/admin/analytics', analyticsRoutes);
-
-// // Health
-// app.get('/health', (_req, res) => res.json({ ok: true }));
-
-// const port = process.env.PORT || 5000;
-// app.listen(port, () => console.log(`Server running on port ${ port }`));
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//----------------------------------------File save and run this not main file-----------------------------------
-//----------------------------------------File save and run this not main file-----------------------------------
-//----------------------------------------File save and run this not main file-----------------------------------
-//----------------------------------------File save and run this not main file-----------------------------------
-
+//---------------------------main file-----------------------------
 
 
 
@@ -136,26 +36,8 @@ const __dirname = path.dirname(__filename);
 
 const app = express();
 
-
-
-const allowedOrigins = [
-  "http://localhost:5173",              // Local dev
-  "https://sih-health.vercel.app",
-  "https://docbotlcausesense.vercel.app"       // Deployed frontend
-];
-
-app.use(cors({
-  origin: function (origin, callback) {
-    if (!origin || allowedOrigins.includes(origin)) {
-      callback(null, true);
-    } else {
-      callback(new Error("Not allowed by CORS"));
-    }
-  },
-  allowedHeaders: ['Content-Type', 'Authorization'],
-  credentials: true
-}));
-
+// Core middleware
+app.use(cors({ origin: 'http://localhost:5173', allowedHeaders: ['Content-Type','Authorization'] }));
 app.use(express.json({ limit: '10mb' }));
 
 // Static uploads
@@ -192,60 +74,178 @@ app.use('/api/subscription', requireAuth(), subscriptionRoutes);
 app.use('/admin', adminAuth);
 app.use('/admin/analytics', analyticsRoutes);
 
-
-
-
-
-
-
-//govertmentsceeh added herer
-import govtSchemesRoute from "./routes/govtSchemes.route.js";
-app.use("/api/govt-schemes", govtSchemesRoute);
-//end herer
-
-
-
-
-
-
 // Health
 app.get('/health', (_req, res) => res.json({ ok: true }));
-// ------------------ CONTACT ROUTE ------------------ //
-app.post("/api/contact", async (req, res) => {
-  const { user_name, user_email, message } = req.body;
-
-  if (!user_name || !user_email || !message) {
-    return res.status(400).json({ error: "All fields are required" });
-  }
-
-  try {
-    // Send email via EmailJS REST API
-    const response = await fetch("https://api.emailjs.com/api/v1.0/email/send", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        service_id: process.env.EMAILJS_SERVICE_ID,
-        template_id: process.env.EMAILJS_TEMPLATE_ID,
-        user_id: process.env.EMAILJS_PUBLIC_KEY,
-        template_params: { user_name, user_email, message },
-      }),
-    });
-
-    if (response.ok) {
-      return res.json({ success: true, message: "Message sent successfully ✅" });
-    } else {
-      const errorData = await response.json();
-      return res.status(500).json({ error: "Failed to send message", details: errorData });
-    }
-  } catch (err) {
-    console.error("Error sending email:", err);
-    return res.status(500).json({ error: "Internal server error" });
-  }
-});
-
 
 const port = process.env.PORT || 5000;
 app.listen(port, () => console.log(`Server running on port ${ port }`));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//----------------------------------------File save and run this not main file-----------------------------------
+//----------------------------------------File save and run this not main file-----------------------------------
+//----------------------------------------File save and run this not main file-----------------------------------
+//----------------------------------------File save and run this not main file-----------------------------------
+
+
+
+
+// import express from 'express';
+// import cors from 'cors';
+// import dotenv from 'dotenv';
+// import mongoose from 'mongoose';
+// import path from 'path';
+// import { fileURLToPath } from 'url';
+// import { requireAuth } from '@clerk/express';
+
+// // Existing routers
+// import reportRoutes from './routes/report.js';
+// import policyRoutes from './routes/policy.js';
+// import analyzeRoutes from './routes/analyze.js';
+// import chatRouter from './routes/chat.js';
+// import uploadRoutes from './routes/uploadRoutes.js';
+// import chatRoutes from './routes/chatRoutes.js';
+// import multiReportRoutes from './routes/multi-report-route.js';
+// import multiPolicyRoutes from './routes/multi-policy-route.js';
+// import multiAnalyzeRoutes from './routes/multi-analyze-route.js';
+// import medicalAnalysisRoutes from './routes/medicalAnalysisRoutes.js';
+// import subscriptionRoutes from './routes/subscription.js';
+// import { connectDB } from './utils/db.js';
+
+// // NEW: Admin analytics
+// import adminAuth from './middleware/adminAuth.js';
+// import analyticsRoutes from './routes/analytics.routes.js';
+// import ensureIndexes from './indexes.js';
+
+// dotenv.config();
+
+// const __filename = fileURLToPath(import.meta.url);
+// const __dirname = path.dirname(__filename);
+
+// const app = express();
+
+
+
+// const allowedOrigins = [
+//   "http://localhost:5173",              // Local dev
+//   "https://sih-health.vercel.app",
+//   "https://docbotlcausesense.vercel.app"       // Deployed frontend
+// ];
+
+// app.use(cors({
+//   origin: function (origin, callback) {
+//     if (!origin || allowedOrigins.includes(origin)) {
+//       callback(null, true);
+//     } else {
+//       callback(new Error("Not allowed by CORS"));
+//     }
+//   },
+//   allowedHeaders: ['Content-Type', 'Authorization'],
+//   credentials: true
+// }));
+
+// app.use(express.json({ limit: '10mb' }));
+
+// // Static uploads
+// const uploadsPath = path.join(__dirname, '..', process.env.UPLOAD_DIR || 'uploads');
+// app.use('/uploads', express.static(uploadsPath));
+
+// // Connect MongoDB and ensure indexes
+// connectDB()
+//     .then(async () => {
+//         console.log('MongoDB connected');
+//         if (ensureIndexes) {
+//             await ensureIndexes();
+//             console.log('Indexes ensured');
+//         }
+//     })
+//     .catch(err => console.error('MongoDB connection error', err));
+
+// // Public/regular API routes (unchanged)
+// app.use('/api/report', reportRoutes);
+// app.use('/api/policy', policyRoutes);
+// app.use('/api/analyze', analyzeRoutes);
+// app.use('/api/chat', chatRouter);
+// app.use('/api/multi-report', multiReportRoutes);
+// app.use('/api/multi-policy', multiPolicyRoutes);
+// app.use('/api/multi-analyze', multiAnalyzeRoutes);
+// app.use('/api/medical-ana', medicalAnalysisRoutes);
+// app.use('/api', uploadRoutes);
+// app.use('/api', chatRoutes);
+
+// // Clerk-protected
+// app.use('/api/subscription', requireAuth(), subscriptionRoutes);
+
+// // NEW: Admin-only analytics namespace (Basic Auth)
+// app.use('/admin', adminAuth);
+// app.use('/admin/analytics', analyticsRoutes);
+
+
+
+
+
+
+
+// //govertmentsceeh added herer
+// import govtSchemesRoute from "./routes/govtSchemes.route.js";
+// app.use("/api/govt-schemes", govtSchemesRoute);
+// //end herer
+
+
+
+
+
+
+// // Health
+// app.get('/health', (_req, res) => res.json({ ok: true }));
+// // ------------------ CONTACT ROUTE ------------------ //
+// app.post("/api/contact", async (req, res) => {
+//   const { user_name, user_email, message } = req.body;
+
+//   if (!user_name || !user_email || !message) {
+//     return res.status(400).json({ error: "All fields are required" });
+//   }
+
+//   try {
+//     // Send email via EmailJS REST API
+//     const response = await fetch("https://api.emailjs.com/api/v1.0/email/send", {
+//       method: "POST",
+//       headers: { "Content-Type": "application/json" },
+//       body: JSON.stringify({
+//         service_id: process.env.EMAILJS_SERVICE_ID,
+//         template_id: process.env.EMAILJS_TEMPLATE_ID,
+//         user_id: process.env.EMAILJS_PUBLIC_KEY,
+//         template_params: { user_name, user_email, message },
+//       }),
+//     });
+
+//     if (response.ok) {
+//       return res.json({ success: true, message: "Message sent successfully ✅" });
+//     } else {
+//       const errorData = await response.json();
+//       return res.status(500).json({ error: "Failed to send message", details: errorData });
+//     }
+//   } catch (err) {
+//     console.error("Error sending email:", err);
+//     return res.status(500).json({ error: "Internal server error" });
+//   }
+// });
+
+
+// const port = process.env.PORT || 5000;
+// app.listen(port, () => console.log(`Server running on port ${ port }`));
 
 
 
